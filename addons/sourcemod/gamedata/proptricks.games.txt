@@ -1,0 +1,93 @@
+"Games"
+{
+	"#default"
+	{
+		"Keys"
+		{
+			"IGameMovement"		"GameMovement001"
+		}
+
+		"Signatures"
+		{
+			"CreateInterface"
+			{
+				"library"		"server"
+				"windows"		"@CreateInterface"
+				"linux"			"@CreateInterface"
+			}
+
+			"PassServerEntityFilter"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x56\x8B\x2A\x2A\x85\x2A\x75\x2A\xB0\x2A\x5E"
+				"linux"			"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
+			}
+
+			"CCollisionEvent::ShouldCollide"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x83\xEC\x1C\x8B\xC1"
+				"linux"			"@_ZN15CCollisionEvent13ShouldCollideEP14IPhysicsObjectS1_PvS2_"
+			}
+
+			"CBasePlayer::PlayerUse"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x81\xEC\x98\x00\x00\x00\x56\x57\x8B\xF9\x8B\x87\x44\x0A\x00\x00"
+				"linux"			"@_ZN11CBasePlayer9PlayerUseEv"
+			}
+
+			"CTraceFilterSimple::ShouldHitEntity"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x53\x8B\x5D\x0C\x56\x8B\x75\x08\x57\x53"
+				"linux"			"@_ZN18CTraceFilterSimple15ShouldHitEntityEP13IHandleEntityi"
+			}
+			
+		}
+
+		"Addresses"
+		{
+			"CBasePlayer::PlayerUse"
+			{
+				"windows"
+				{
+					"signature" "CBasePlayer::PlayerUse"
+				}
+				
+				"linux"
+				{
+					"signature" "CBasePlayer::PlayerUse"
+				}
+			}
+		}
+
+		"Offsets"
+		{
+			"ProcessMovement"
+			{
+				"windows"		"1"
+				"linux"			"2"
+			}
+
+			"WorldSpaceCenter"
+			{
+				"windows"		"149"
+				"linux"			"150"
+			}
+
+			"CGameRules::IsSpawnPointValid"
+			{
+				"windows"   "76"
+				"linux"     "77"
+				"mac"       "77"
+			}
+
+			"OS"
+			{
+				"windows"	"1"
+				"linux"		"2"
+			}
+		}
+	}
+}

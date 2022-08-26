@@ -1,0 +1,63 @@
+"Phrases"
+{
+	// ---------- Commands ---------- //
+	"AutobhopEnabled"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Autobhop {1}enabled{2}."
+	}
+	"AutobhopDisabled"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Autobhop {1}disabled{2}."
+	}
+	"CheatTimerStop"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{1}Timer stopped! {2}{3}"
+	}
+	"CommandDisabled"
+	{
+		"#format" 	"{1:s},{2:s},{3:s}"
+		"en"		"The command ({1}{2}{3}) is disabled."
+	}
+	// ---------- Errors ---------- //
+	"VerificationFailed"
+	{
+		"en"		"Couldn't verify your, or the server's connection to Steam."
+	}
+	// ---------- Menus ---------- //
+	"PropMenuTitle"
+	{
+		"en"		"Choose a prop:"
+	}
+	"TrackMenuTitle"
+	{
+		"en"		"Choose a track:"
+	}
+	"PropNothing"
+	{
+		"en"		"Nothing."
+	}
+	"PropSelection"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"You have chosen to play {1}{2}{3}."
+	}
+	"TrackSelection"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"You have chosen to play {1}{2}{3}."
+	}
+	// ---------- Zones ---------- //
+	"StartZoneUndefined"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"en"		"Your timer {1}will not{2} start because the {3}{4}{5} start zone is not set."
+	}
+	"EndZoneUndefined"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"You {1}can't{2} teleport as an end zone for the map is not defined."
+	}
+}

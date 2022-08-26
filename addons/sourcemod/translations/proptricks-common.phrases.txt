@@ -1,0 +1,61 @@
+"Phrases"
+{
+	// ---------- Tracks ---------- //
+	"Track"
+	{
+		"en"		"Track"
+	}
+	"Track_Unknown"
+	{
+		"en"		"UNKNOWN TRACK"
+	}
+	"Track_0"
+	{
+		"en"		"Track 1"
+	}
+	"Track_1"
+	{
+		"en"		"Track 2"
+	}
+	"Track_2"
+	{
+		"en"		"Track 3"
+	}
+	"Track_3"
+	{
+		"en"		"Track 4"
+	}
+	"Track_4"
+	{
+		"en"		"Track 5"
+	}
+	// ---------- Commands ---------- //
+	"NoCommandAccess"
+	{
+		"en"		"You do not have access to this command."
+	}
+	"NoConsole"
+	{
+		"en"		"Run this command from inside the game."
+	}
+	"ArgumentsMissing"
+	{
+		"#format"	"{1:s}"
+		"en"		"Usage: {1}"
+	}
+	"TimerCommands"
+	{
+		"en"		"Timer Commands"
+	}
+	// ---------- Timelimit ---------- //
+	"Minutes"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} minutes remaining."
+	}	
+	"Seconds"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} seconds remaining."
+	}
+}

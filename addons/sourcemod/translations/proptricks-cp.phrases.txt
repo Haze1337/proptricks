@@ -1,0 +1,93 @@
+"Phrases"
+{
+	// ---------- Commands ---------- //
+	"CommandAlive"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"You have to be {1}alive{2} to use this command."
+	}
+	"CommandAliveSpectate"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}"
+		"en"		"You have to be {1}alive{2} or {3}spectate a player{4} to use this command."
+	}
+	"CommandTeleCPInvalid"
+	{
+		"en"		"You may not teleport to this checkpoint due to setting mismatch."
+	}
+	"MiscCheckpointsSaved"
+	{
+		"#format"	"{1:d},{2:s},{3:s}"
+		"en"		"Checkpoint ({1}) {2}saved{3}."
+	}
+	"MiscCheckpointsTeleported"
+	{
+		"#format"	"{1:d},{2:s},{3:s}"
+		"en"		"{2}Teleported{3} to checkpoint ({1})."
+	}
+	"MiscCheckpointsEmpty"
+	{
+		"#format"	"{1:d},{2:s},{3:s}"
+		"en"		"Checkpoint {1} is {2}empty{3}."
+	}
+	"MiscCheckpointsOverflow"
+	{
+		"en"		"Unable to save due to checkpoint overflow."
+	}
+	"MiscSegmentedCommand"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Use {1}!cp{2} to re-open the segmented checkpoints menu."
+	}
+	// ---------- Menus ---------- //
+	"ClearCPWarning"
+	{
+		"en"		"Are you sure you want to clear your checkpoints?"
+	}
+	"ClearCPYes"
+	{
+		"en"		"Yes, and I know this action cannot be reversed."
+	}
+	"ClearCPNo"
+	{
+		"en"		"No."
+	}
+	"MiscCheckpointMenu"
+	{
+		"en"		"Checkpoints"
+	}
+	"MiscCheckpointWarning"
+	{
+		"en"		"WARNING: Teleporting will stop your timer!"
+	}
+	"MiscCheckpointSave"
+	{
+		"#format"	"{1:d}"
+		"en"		"Save checkpoint ({1})"
+	}
+	"MiscCheckpointTeleport"
+	{
+		"#format"	"{1:d}"
+		"en"		"Teleport to checkpoint ({1})"
+	}
+	"MiscCheckpointPrevious"
+	{
+		"en"		"Previous"
+	}
+	"MiscCheckpointNext"
+	{
+		"en"		"Next"
+	}
+	"MiscCheckpointReset"
+	{
+		"en"		"Reset checkpoints"
+	}
+	"MiscCheckpointDeleteCurrent"
+	{
+		"en"		"Delete current checkpoint"
+	}
+	"MiscCheckpointPause"
+	{
+		"en"		"Pause"
+	}
+}
