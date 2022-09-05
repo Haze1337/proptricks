@@ -11,7 +11,7 @@
 
 public Plugin myinfo =
 {
-	name = "MASS TEST",
+	name = "SlowDown",
 	author = "",
 	description = "",
 	version = "1.0",
@@ -24,6 +24,8 @@ public void OnPluginStart()
 {
 	RegConsoleCmd("+slowdown", Command_PlusSlowDown);
 	RegConsoleCmd("-slowdown", Command_MinusSlowDown);
+	RegConsoleCmd("+sm_slowdown", Command_PlusSlowDown);
+	RegConsoleCmd("-sm_slowdown", Command_MinusSlowDown);
 }
 
 public void OnClientPutInServer(int client)
