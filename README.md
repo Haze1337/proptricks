@@ -10,4 +10,5 @@ Discord: https://discord.gg/dNwSwkTxvp
 * [Metamod:Source](https://www.sourcemm.net/downloads.php?branch=stable) and [SourceMod 1.10](https://www.sourcemod.net/smdrop/1.10/) (latest at bottom of list) [or 1.11+](https://www.sourcemod.net/downloads.php?branch=stable) installed.
 * [DHooks](https://github.com/peace-maker/DHooks2/releases)
 * [VPhysics](https://github.com/Haze1337/vphysics/releases)
+* [SendProxy](https://github.com/Haze1337/sendproxy_archive/releases)
 * Tickrate 100 (Use Tickrate Enabler)
